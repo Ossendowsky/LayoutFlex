@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.main__header {
+    height: 5vh;
+    background-color: #ff4500;
+}
+
+.main__section {
+    display: flex;
+    flex-direction: column;
+}
+
+.section__article {
+    height: 50vh;
+    background-color: #00ffff;
+}
+
+.section__aside--right {
+    order: 1;
+    height: 20vh;
+    background-color: #ffc0cb;
+}
+
+.section__aside--left {
+    height: 20vh;
+    background-color: #008000;
+}
+
+.main__footer {
+    height: 5vh;
+    background-color: #ee82ee;
+}

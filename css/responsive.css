@@ -1,0 +1,37 @@
+@media (min-width: 768px) {
+    .main__section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .section__article {
+        flex: 1 0 70%;
+    }
+    .section__aside--right {
+        flex: 1 0 30%;
+        height: 50vh;
+    }
+    .section__aside--left {
+        flex: 0 1 100%;
+        order: 2;
+    }
+}
+
+@media (min-width: 992px) {
+    .main__section {
+        display: flex;
+        flex-direction: row;
+    }
+    .section__article {
+        flex: 1 0 60%;
+    }
+    .section__aside--right {
+        flex: 1 0 20%;
+        height: 50vh;
+    }
+    .section__aside--left {
+        flex: 1 0 20%;
+        order: -2;
+        height: 50vh;
+    }
+}
